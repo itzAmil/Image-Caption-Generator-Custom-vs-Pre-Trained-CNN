@@ -1,4 +1,4 @@
-# 🧠 Image Caption Generator: Custom Vs Pre-Trained CNN
+# Image Caption Generator: Custom Vs Pre-Trained CNN
 
 This study presents an image captioning model using attention-based encoder-decoder architecture. We compare the performance of a custom CNN and three popular pre-trained CNNs (InceptionV3, ResNet50, and VGG16) for feature extraction. All feature sets are passed to a shared decoder (LSTM) that generates textual descriptions. The results show that pre-trained models, especially InceptionV3, significantly outperform custom CNNs in BLEU scores and generation fluency.
 
@@ -36,7 +36,7 @@ We use the **Flickr8k** dataset:
 
 ## 🧰 Tech Stack
 
-- Python 3.10+
+- Python 3.13
 - TensorFlow / Keras
 - NumPy, Pandas
 - Matplotlib, PIL
